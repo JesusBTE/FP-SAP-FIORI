@@ -67,10 +67,10 @@
     </f:SimpleForm>
 
     <m:beginButton>
-      <m:Button text="Guardar" type="Emphasized" press=".onSaveUser"/>
+      <m:Button text="Guardar" type="Emphasized" press=".onEditSaveUser"/>
     </m:beginButton>
     <m:endButton>
-      <m:Button text="Cancelar" press=".onCancelUser"/>
+      <m:Button text="Cancelar" press=".onEditCancelUser"/>
     </m:endButton>
   </m:Dialog>
 </core:FragmentDefinition>
